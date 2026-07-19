@@ -162,7 +162,7 @@ ${RESUME_CONTEXT}`;
             </div>
 
             {/* Messages */}
-            <div className="h-80 overflow-y-auto p-5 flex flex-col gap-3 scroll-smooth">
+            <div className="max-h-[60vh] md:max-h-[48vh] overflow-y-auto p-5 flex flex-col gap-3 scroll-smooth">
               {messages.map((msg, i) => (
                 <motion.div
                   key={i}
@@ -222,7 +222,7 @@ ${RESUME_CONTEXT}`;
 
             {/* Suggestions */}
             <div className="px-5 py-3 border-t border-gray-100 dark:border-[#2a2a40] flex flex-wrap gap-2">
-              {SUGGESTIONS.slice(0, 3).map((s) => (
+              {SUGGESTIONS.slice(0).map((s) => (
                 <button
                   key={s}
                   onClick={() => sendMessage(s)}

@@ -20,6 +20,8 @@ const App: React.FC = () => {
         <main>
           <Hero />
           <hr className="border-gray-200 dark:border-[#1a1a26]" />
+          <AiChat />
+          <hr className="border-gray-200 dark:border-[#1a1a26]" />
           <About />
           <hr className="border-gray-200 dark:border-[#1a1a26]" />
           <Skills />
@@ -32,7 +34,7 @@ const App: React.FC = () => {
           <hr className="border-gray-200 dark:border-[#1a1a26]" />
           <Contact />
           <hr className="border-gray-200 dark:border-[#1a1a26]" />
-          <AiChat />
+          {/* <AiChat /> */}
         </main>
         <Footer />
       </div>

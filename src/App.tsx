@@ -18,7 +18,6 @@ const App: React.FC = () => {
       <div className="min-h-screen bg-white dark:bg-[#0a0a0f] text-gray-900 dark:text-white transition-colors duration-300">
         <Navbar />
         <main>
-          
           <Hero />
           <hr className="border-gray-200 dark:border-[#1a1a26]" />
           <AiChat />
